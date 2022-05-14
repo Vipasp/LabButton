@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Get Button Text</string>
+    <string name="clickme">Click Me</string>
+    <string name="entertext">type text here</string>
+</resources>
