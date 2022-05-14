@@ -17,8 +17,9 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onClickBtn(View v){
         final EditText edit =  (EditText) findViewById(R.id.editText);
-        Toast.makeText(this, edit.getText().toString(), Toast.LENGTH_LONG).show();
         final Button btn = (Button) findViewById(R.id.button);
+        edit.setText(btn.getText().toString());
+        Toast.makeText(this, edit.getText().toString(), Toast.LENGTH_LONG).show();
         btn.setEnabled(false);
     }
 }
