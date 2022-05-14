@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         final Button btn = (Button) findViewById(R.id.button);
         edit.setText(btn.getText().toString());
         Toast.makeText(this, edit.getText().toString(), Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Отключили кнопку", Toast.LENGTH_LONG).show();
         btn.setEnabled(false);
     }
 }
